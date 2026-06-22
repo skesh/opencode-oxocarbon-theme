@@ -51,203 +51,253 @@
   "theme": {
     "primary": {
       "dark": "base09",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Accent elements, links, buttons, active states"
     },
     "secondary": {
       "dark": "base0F",
-      "light": "base0F-light"
+      "light": "base0F-light",
+      "description": "Secondary accents, less prominent interactive elements"
     },
     "accent": {
       "dark": "base07",
-      "light": "base07-light"
+      "light": "base07-light",
+      "description": "Highlight, active element glow, selection"
     },
     "error": {
       "dark": "red",
-      "light": "red-light"
+      "light": "red-light",
+      "description": "Error messages, destructive actions, validation failures"
     },
     "warning": {
       "dark": "orange",
-      "light": "orange-light"
+      "light": "orange-light",
+      "description": "Warnings, deprecation notices, caution states"
     },
     "success": {
       "dark": "base0D",
-      "light": "base0D-light"
+      "light": "base0D-light",
+      "description": "Success messages, completed operations, positive states"
     },
     "info": {
       "dark": "base09",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Informational messages, help text, hints"
     },
     "text": {
       "dark": "base05",
-      "light": "base05-light"
+      "light": "base05-light",
+      "description": "Primary text content"
     },
     "textMuted": {
       "dark": "base03",
-      "light": "base02-light"
+      "light": "base02-light",
+      "description": "Secondary text, placeholders, disabled text"
     },
     "background": {
       "dark": "base00",
-      "light": "base00-light"
+      "light": "base00-light",
+      "description": "Main application background"
     },
     "backgroundPanel": {
       "dark": "base01",
-      "light": "base01-light"
+      "light": "base01-light",
+      "description": "Sidebar, panel, and card backgrounds"
     },
     "backgroundElement": {
       "dark": "base01",
-      "light": "base01-light"
+      "light": "base01-light",
+      "description": "Input fields, button, and element backgrounds"
     },
     "border": {
       "dark": "base02",
-      "light": "#c6c6c6"
+      "light": "#c6c6c6",
+      "description": "Element borders and dividers"
     },
     "borderActive": {
       "dark": "base09",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Focused/active element border, selection outline"
     },
     "borderSubtle": {
       "dark": "base02",
-      "light": "#e0e0e0"
+      "light": "#e0e0e0",
+      "description": "Subtle separators, faint dividing lines"
     },
     "diffAdded": {
       "dark": "base0D",
-      "light": "base0D-light"
+      "light": "base0D-light",
+      "description": "Added line text color"
     },
     "diffRemoved": {
       "dark": "red",
-      "light": "red-light"
+      "light": "red-light",
+      "description": "Removed line text color"
     },
     "diffContext": {
       "dark": "base03",
-      "light": "gray40"
+      "light": "gray40",
+      "description": "Unchanged context line text color"
     },
     "diffHunkHeader": {
       "dark": "base03",
-      "light": "gray30"
+      "light": "gray30",
+      "description": "Hunk header (@@ ... @@) text color"
     },
     "diffHighlightAdded": {
       "dark": "base0D",
-      "light": "base0D-light"
+      "light": "base0D-light",
+      "description": "Highlighted added text within a line (word diff)"
     },
     "diffHighlightRemoved": {
       "dark": "red",
-      "light": "red-light"
+      "light": "red-light",
+      "description": "Highlighted removed text within a line (word diff)"
     },
     "diffAddedBg": {
       "dark": "#1c2e1c",
-      "light": "#e8f5e9"
+      "light": "#e8f5e9",
+      "description": "Added line background"
     },
     "diffRemovedBg": {
       "dark": "#2e1c1c",
-      "light": "#fde8e8"
+      "light": "#fde8e8",
+      "description": "Removed line background"
     },
     "diffContextBg": {
       "dark": "base01",
-      "light": "base01-light"
+      "light": "base01-light",
+      "description": "Unchanged context line background"
     },
     "diffLineNumber": {
       "dark": "base02",
-      "light": "gray40"
+      "light": "gray40",
+      "description": "Line number gutter text color"
     },
     "diffAddedLineNumberBg": {
       "dark": "#1c2e1c",
-      "light": "#e8f5e9"
+      "light": "#e8f5e9",
+      "description": "Added line number gutter background"
     },
     "diffRemovedLineNumberBg": {
       "dark": "#2e1c1c",
-      "light": "#fde8e8"
+      "light": "#fde8e8",
+      "description": "Removed line number gutter background"
     },
     "markdownText": {
       "dark": "base05",
-      "light": "base05-light"
+      "light": "base05-light",
+      "description": "Body text color"
     },
     "markdownHeading": {
       "dark": "base09",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Heading (#, ##, etc.) text color"
     },
     "markdownLink": {
       "dark": "base0F",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Link URL and bracket color"
     },
     "markdownLinkText": {
       "dark": "base07",
-      "light": "base07-light"
+      "light": "base07-light",
+      "description": "Link display text color"
     },
     "markdownCode": {
       "dark": "base0A",
-      "light": "base09-light"
+      "light": "base09-light",
+      "description": "Inline code (`code`) text color"
     },
     "markdownBlockQuote": {
       "dark": "base03",
-      "light": "gray40"
+      "light": "gray40",
+      "description": "Blockquote text color"
     },
     "markdownEmph": {
       "dark": "base07",
-      "light": "base07-light"
+      "light": "base07-light",
+      "description": "Italic/emphasis text color"
     },
     "markdownStrong": {
       "dark": "base06",
-      "light": "#000000"
+      "light": "#000000",
+      "description": "Bold/strong text color"
     },
     "markdownHorizontalRule": {
       "dark": "base02",
-      "light": "gray30"
+      "light": "gray30",
+      "description": "Horizontal rule (---) color"
     },
     "markdownListItem": {
       "dark": "base09",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Unordered list bullet marker color"
     },
     "markdownListEnumeration": {
       "dark": "base07",
-      "light": "base07-light"
+      "light": "base07-light",
+      "description": "Ordered list number color"
     },
     "markdownImage": {
       "dark": "base0F",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Image syntax brackets color"
     },
     "markdownImageText": {
       "dark": "base07",
-      "light": "base07-light"
+      "light": "base07-light",
+      "description": "Image alt text color"
     },
     "markdownCodeBlock": {
       "dark": "base05",
-      "light": "base05-light"
+      "light": "base05-light",
+      "description": "Fenced code block text color"
     },
     "syntaxComment": {
       "dark": "base03",
-      "light": "gray40"
+      "light": "gray40",
+      "description": "Comments (//, /* */, #)"
     },
     "syntaxKeyword": {
       "dark": "base0E",
-      "light": "base0E-light"
+      "light": "base0E-light",
+      "description": "Keywords (if, for, return, import, class)"
     },
     "syntaxFunction": {
       "dark": "base09",
-      "light": "base0B-light"
+      "light": "base0B-light",
+      "description": "Function and method names"
     },
     "syntaxVariable": {
       "dark": "base0C",
-      "light": "base0C-light"
+      "light": "base0C-light",
+      "description": "Variables, parameters, and identifiers"
     },
     "syntaxString": {
       "dark": "base0D",
-      "light": "base0D-light"
+      "light": "base0D-light",
+      "description": "String literals"
     },
     "syntaxNumber": {
       "dark": "base0A",
-      "light": "base09-light"
+      "light": "base09-light",
+      "description": "Numeric literals"
     },
     "syntaxType": {
       "dark": "base07",
-      "light": "base07-light"
+      "light": "base07-light",
+      "description": "Types, classes, interfaces, type annotations"
     },
     "syntaxOperator": {
       "dark": "base0E",
-      "light": "base0E-light"
+      "light": "base0E-light",
+      "description": "Operators (+, ->, =, ===, ?)"
     },
     "syntaxPunctuation": {
       "dark": "base05",
-      "light": "base05-light"
+      "light": "base05-light",
+      "description": "Punctuation ({, }, (, ), ;, ,)"
     }
   }
 }
